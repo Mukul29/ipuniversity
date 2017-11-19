@@ -1,3 +1,5 @@
+//Write a program to implement Cohen Sutherland Clipping algorithm 
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
