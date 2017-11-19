@@ -1,3 +1,5 @@
+//Write a program to implement DDA line algorithm
+
 #include <stdio.h>
 #include <dos.h>
 #include <graphics.h>
