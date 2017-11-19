@@ -1,3 +1,4 @@
+//Write a program to demonstrate bezier curves
 #include<stdio.h>
 #include<conio.h>
 #include<graphics.h>
