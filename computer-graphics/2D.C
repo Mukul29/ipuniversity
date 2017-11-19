@@ -1,3 +1,5 @@
+//Write a program to perform 2d transformations.
+
 #include<stdio.h>
 #include<conio.h>
 #include<graphics.h>
