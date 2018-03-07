@@ -1,3 +1,5 @@
+//Program containing all the functions of the complexNumber class
+
 #include <iostream>
 #include "complexNumber.h"
 
