@@ -1,3 +1,5 @@
+#simple makefile for operator overloading program
+
 all: main
 
 main: main.o complexNumber.o
@@ -7,4 +9,4 @@ main.o: main.cpp
 complexNumber.o: complexNumber.cpp complexNumber.h
 	g++ -c complexNumber.cpp
 clean:
-	rm -f *.o main 
+	rm 
