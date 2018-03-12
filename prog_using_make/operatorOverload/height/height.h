@@ -1,5 +1,7 @@
 //This header file contains definitions of class ht and
 //prototypes of the methods
+#ifndef HEIGHT_H
+#define HEIGHT_H
 class ht
 {
 	int ft, inch;
@@ -16,3 +18,4 @@ ht 	operator ++(const int);
 void	output(void);
 	~ht();
 };
+#endif
