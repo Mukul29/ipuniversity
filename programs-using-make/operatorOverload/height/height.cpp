@@ -56,11 +56,27 @@ ht ht::operator ++(void)
 	inch = (inch + 1) % 12;
 	return *this;
 }
-ht ht::operator ++(const int)
+ht ht::operator ++(const int dummy)
 {
 	ht temp = *this;
 	ft = ft + (inch + 1)/12;
 	inch = (inch + 1) % 12;
+	return temp;
+}
+ht ht::operator +=(const ht t)
+{
+	ht temp;
+	ft = ft + t.ft + (inch + t.inch)/12;
+	inch = (inch + t.inch) % 12;
+	temp = *this;
+	return temp;
+}
+ht ht::operator +=(const int i)
+{
+	ht temp;
+	ft = ft + (inch + i)/12;
+	inch = (inch + i) % 12;
+	temp = *this;
 	return temp;
 }
 void ht::output(void)

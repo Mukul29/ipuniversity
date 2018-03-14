@@ -21,5 +21,9 @@ int main(void)
 	t.output();
 	z.output();
 	cout<<(m > f)<<endl;
+	t += 3;
+	t.output();
+	t += z;
+	t.output();
 	return 0;
 }
