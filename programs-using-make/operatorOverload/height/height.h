@@ -15,6 +15,8 @@ ht 	operator +(const int);
 int 	operator >(const ht);
 ht 	operator ++(void);
 ht 	operator ++(const int);
+ht	operator +=(const ht);
+ht	operator +=(const int);
 void	output(void);
 	~ht();
 };
